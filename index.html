@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+  <title>Filler</title>
+  <style>
+    /* Custom styles */
+  </style>
+</head>
+
+<body class="bg-blue-600">
+  <header class="bg-black text-white py-4">
+    <div class="container mx-auto px-4">
+      <nav class="container mx-auto flex justify-between items-center">
+        <div class="flex items-center">
+          <a href="https://bromcq.netlify.app/" class="flex items-center">
+            <img src="logo.png" alt="Logo" class="h-8 w-8 mr-2">
+            <span class="text-white font-bold">Applicant</span>
+          </a>
+        </div>
+        <div class="flex justify-center">
+          <a href="#features" class="text-white font-semibold mx-4">Features</a>
+          <a href="#footer" class="text-white font-semibold mx-4">Social</a>
+          <a href="#" class="text-white font-semibold mx-4">About</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="px-4 py-8 bg-white">
+    <div class="container mx-auto">
+      <div class="flex flex-col md:flex-row items-center">
+        <!-- Image for mobile and desktop -->
+        <div class="md:w-1/2 md:order-last">
+          <img src="imgs/hero.png" alt="A form on a laptop" class="w-full md:w-auto">
+        </div>
+        <!-- Text content for mobile and desktop -->
+        <div class="md:w-1/2 pl-4 mt-5 md:pl-0">
+          <h1
+            class="text-3xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600 md:text-4xl font-bold mb-1">
+            Welcome to Filler</h1>
+          <p class="text-xl md:text-xl mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis
+            lacus vitae ullamcorper imperdiet. Proin convallis, metus sit amet dictum.</p>
+          <div class="flex flex-wrap">
+            <a href="#application" class="bg-blue-500 text-white px-6 py-2 rounded-lg mr-4 mb-4">Get
+              Started</a>
+            <a href="#how" class="bg-blue-500 text-white px-6 py-2 rounded-lg mb-4">How it
+              works</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 
+  <section id="features" class="px-4 py-8">
+    <div class="container mx-auto">
+      <h2 class="text-3xl text-white font-bold mb-6">Features</h2>
+      <div class="overflow-x-auto">
+        <div id="featureCardsContainer" class="flex flex-nowrap">
+        </div>
+      </div>
+    </div>
+  </section>
+-->
+
+
+  <div id="features" class="container mx-auto px-3.5">
+    <div class="text-3xl text-white font-bold mt-3.5">Features</div>
+  </div>
+  <section class="flex snap-x snap-mandatory flex-nowrap gap-5 md:justify-center md:items-center overflow-x-auto px-5">
+
+    <!-- Card 1 -->
+    <div class="bg-white rounded-lg w-64 h-64 flex-none mt-6 mb-4 shadow-md p-6">
+      <img class="mb-4 w-16 h-16" src="imgs/rocket.png" alt="Icon">
+      <h2 class="text-xl font-semibold mb-2">Accelerate</h2>
+      <p class="text-gray-600 ">Say goodbye to the tedious task of filling out forms. Our platform simplifies the
+        process.</p>
+    </div>
+    <!-- Card 2 -->
+    <div class="bg-white rounded-lg w-64 h-64 flex-none  mt-6 mb-4  shadow-md p-6">
+      <img class="mb-4 w-16 h-16" src="imgs/check.png" alt="Icon">
+      <h2 class="text-xl font-semibold mb-2">Ensure</h2>
+      <p class="text-gray-600">Worrying about typos or formatting errors in your applications? We acts as your personal
+        proofreader.</p>
+    </div>
+
+    <div class="bg-white rounded-lg w-64 h-64 flex-none  mt-6 mb-4  shadow-md p-6">
+      <img class="mb-4 w-16 h-16" src="imgs/hassle.png" alt="Icon">
+      <h2 class="text-xl font-semibold mb-2">Hassle Free</h2>
+      <p class="text-gray-600">We offer our services at an affordable price, ensuring that professional assistance is
+        accessible to all.</p>
+    </div>
+  </section>
+
+  <div id="how" class="container mx-auto flex px-3.5">
+    <div class="text-3xl text-white font-bold mt-3.5">How it works</div>
+  </div>
+  <section class="flex snap-x snap-mandatory flex-nowrap gap-5 md:justify-center md:items-center overflow-x-auto px-5">
+
+    <!-- Card 1 -->
+    <div class="bg-white rounded-lg w-64 h-64 flex-none mt-6 mb-4 shadow-md p-6">
+      <img class="mb-4 w-16 h-16" src="list.png" alt="Icon">
+      <h2 class="text-xl font-semibold mb-2">Card Title 1</h2>
+      <p class="text-gray-600 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent
+        libero.</p>
+    </div>
+    <!-- Card 2 -->
+    <div class="bg-white rounded-lg w-64 h-64 flex-none  mt-6 mb-4  shadow-md p-6">
+      <img class="mb-4 w-16 h-16" src="list.png" alt="Icon">
+      <h2 class="text-xl font-semibold mb-2">Card Title 3</h2>
+      <p class="text-gray-600">orem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent
+        libero.</p>
+    </div>
+
+    <div class="bg-white rounded-lg w-64 h-64 flex-none  mt-6 mb-4  shadow-md p-6">
+      <img class="mb-4 w-16 h-16" src="list.png" alt="Icon">
+      <h2 class="text-xl font-semibold mb-2">Card Title 3</h2>
+      <p class="text-gray-600">orem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent
+        libero.</p>
+    </div>
+  </section>
+
+  <section id="application" class="px-4 py-8">
+    <div class="container mx-auto">
+
+      <h2 class="text-3xl text-white font-bold mb-6">Applications</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <!-- Card 1 -->
+        <div class="card p-4 bg-white shadow-md rounded-lg">
+          <img src="imgs/agri-cover.png" alt="Item 1" class="w-full h-48 object-cover mb-4 rounded">
+          <h3 class="text-lg font-semibold mb-2">Agri Cluster</h3>
+          <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="flex items-center justify-between">
+            <span class="text-xl font-bold">৳৫৫</span>
+            <a href="https://forms.gle/FdDwm8VrEPdEV7CQ9"
+              class="buy-now-btn bg-blue-500 text-white px-4 py-2 rounded hover:bg-black">Apply now</a>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="card p-4 bg-white shadow-md rounded-lg">
+          <img src="imgs/ph.jpg" alt="Item 2" class="w-full h-48 object-cover mb-4 rounded">
+          <h3 class="text-lg font-semibold mb-2">Coming Soon</h3>
+          <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="flex items-center justify-between">
+            <span class="text-xl font-bold">৳ 149.99</span>
+            <a href="#" class="buy-now-btn bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Apply now</a>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="card p-4 bg-white shadow-lg rounded-lg">
+          <img src="imgs/ph.jpg" alt="Item 3" class="w-full h-48 object-cover mb-4 rounded">
+          <h3 class="text-lg font-semibold mb-2">Coming Soon</h3>
+          <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="flex items-center justify-between">
+            <span class="text-xl font-bold">$199.99</span>
+            <a href="#" class="buy-now-btn bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Apply now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer id="footer" class="py-4">
+    <div
+      class="container mx-auto flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
+      <!-- Facebook Page Button -->
+      <a href="https://www.facebook.com/BroMCQ10?mibextid=ZbWKwL"
+        class="bg-white text-blue-600 flex items-center px-4 py-2 border-dashed border-black rounded-md">
+        <img src="https://img.icons8.com/ios-glyphs/30//facebook-new.png" alt="Facebook Page" class="mr-2">
+        <span>Visit our Facebook Page</span>
+      </a>
+      <!-- Facebook Group Button -->
+      <a href="https://www.facebook.com/groups/763810958689870/?ref=share"
+        class="bg-white text-blue-800 flex items-center px-4 py-2 rounded-md">
+        <img src="https://img.icons8.com/fluency/30/ffffff/group-foreground-selected.png" alt="Facebook Group"
+          class="mr-2">
+        <span>Join our Facebook Group</span>
+      </a>
+      <!-- Telegram Channel Button -->
+      <a href="https://t.me/BroMCQ" class="bg-white text-blue-600 flex items-center px-4 py-2 rounded-md">
+        <img src="https://img.icons8.com/ios-filled/30/0088cc/telegram.png" alt="Telegram Channel" class="mr-2">
+        <span>Subscribe to our Telegram Channel</span>
+      </a>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
